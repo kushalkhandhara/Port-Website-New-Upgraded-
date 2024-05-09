@@ -1,0 +1,112 @@
+.project
+{
+    margin: 50px 0px;
+    margin-left: 50px;
+}
+
+.project hr
+{
+    color : #138781;
+    width: 400px;
+    margin: 10px auto;
+}
+.project h2
+{
+    font-weight: bold;
+    color: #138781;
+}
+#ads
+{
+    margin: 30px 0px 30px 0px;
+}
+#ads .card-notify-badge
+{
+    position: absolute;
+    left: -10px;
+    top : -22px;
+    background: #f29f67;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    color : black;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+ 
+.project .card img
+{
+    height: 250px;
+    width: 100%;
+}
+.ad-title
+{
+    text-align: center;
+}
+.card-detail-badge
+{
+    padding-left: 10px;
+    padding: 5px 10px;
+    background-color: #138781;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    font-size: 14px;
+
+
+    /* justify-content: center;
+    align-items: center; */
+}
+.card-image-overly span
+{
+    display: inline-block;
+    margin-left:5px;
+    color: white;
+    font-weight: bold;
+    /* align-items: center; */
+    /* padding-left: 20px; */
+}
+.ad-btn
+{
+    width: 90px;
+    height: 35px;
+    background-color: rgb(74, 74, 180);
+    color: white;
+    font-size: 1rem;
+    line-height: 35px;
+    text-decoration: none;
+    margin : 20px auto 20px auto;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    border-radius:80px ;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.card
+{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.project .card:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media (max-width:600px) 
+{
+    .project
+    {
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+    }
+    .project hr
+    {
+        width: 280px;
+    }
+    .project .card{
+        margin-top: 30px;
+    }
+
+}

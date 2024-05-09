@@ -1,0 +1,96 @@
+.home-container 
+{
+    height: 300px;
+    color: white;
+    padding-left: 150px;
+    
+}
+.home-content h1
+{
+    padding: 10px;
+    padding-top: 80px;
+    
+}
+.home-content h2{
+    color: #e0b50f;
+    padding: 10px;
+    /* margin-left: 150px; */
+}
+.home-buttons
+{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+/* CSS */
+.home-buttons .btn-hire {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.home-buttons .btn-hire:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+/* CSS */
+.home-buttons .btn-cv {
+    background-image: linear-gradient(#0dccea, #0d70ea);
+    border: 0;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: Montserrat,sans-serif;
+    font-size: .9em;
+    margin: 5px;
+    padding: 10px 15px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-weight: bold;
+    margin-left: 40px;
+  }
+
+.home-buttons .btn-hire:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+ @media (max-width: 600px) 
+ {
+
+  .home-container
+  {
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+    /* max-width: 100%; */
+  }
+  .home-container h2
+  {
+    font-size: 24px;
+  }
+  .home-container h1
+  {
+    font-size: 24px;
+  }
+
+  
+ }
